@@ -20,14 +20,19 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto;
       padding: 40px 20px;
     }
 
+    .lang {
+      float: right;
+      font-size: 14px;
+    }
+
     img.logo {
       display: block;
-      margin: 0 auto 24px;
+      margin: 20px auto 24px;
       max-width: 220px;
     }
 
@@ -62,8 +67,11 @@
 
   <div class="container">
 
-    <a href="/en/index.html" style="float:right;">🇬🇧 EN</a>
+    <a class="lang" href="/en/index.html">🇬🇧 EN</a>
 
+    <!-- LOGO -->
+    <!-- El logo se verá SI existe este archivo exactamente:
+         /assets/logo.png -->
     <img src="/assets/logo.png" alt="IA Guardian Pro" class="logo">
 
     <h1>IA Guardian Pro™ – AI Legal Compliance</h1>
